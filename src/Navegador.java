@@ -23,15 +23,16 @@ public class Navegador {
         } else {
             System.out.println("Você não digitou 'x', programa encerrado.");
         }
-
-        System.out.println("Digite 'x' para adicionar aba: ");
+    
+        // Adicionando uma nova aba
+        System.out.println("Digite 'z' para atualizar aba: ");
         String input2 = scanner.nextLine();
 
-        // Verifica se o usuário digitou 'x' (independentemente de maiúsculas/minúsculas)
-        if (input1.equalsIgnoreCase("x")) { // Corrigido para input1
-            System.out.println("Você digitou 'x', aba adicionada!");
+        // Verifica se o usuário digitou 'z' (independentemente de maiúsculas/minúsculas)
+        if (input2.equalsIgnoreCase("z")) { // Corrigido para input1
+            System.out.println("Você digitou 'z', pagina atualizada!");
         } else {
-            System.out.println("Você não digitou 'x', programa encerrado.");
+            System.out.println("Você não digitou 'z', programa encerrado.");
         }
 
         // Fecha o scanner
